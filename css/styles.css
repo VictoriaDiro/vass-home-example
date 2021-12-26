@@ -1,0 +1,159 @@
+
+/****************** LEER ANTES DE EMPEZAR ******************/
+
+/* PRUEBA: Victoria Díaz */
+/* Color Letra y Fondo Azul: #003064 */
+/* Color Letra Gris: #666 */
+/* Color Placeholder: #aaa */
+/* Color Borde Gris: #e2e2e2 */
+/* Color Fondo Body: #efefef */
+
+/* Ancho columna izquierda contenido: 710px */
+/* Ancho columna derecha contenido: 250px */
+
+/* Altura Cabecera: 100px */
+/* Altura Menu: 50px */
+/* Altura Footer: 50px */
+
+/* Separacion Menu - Contenido: 15px */
+/* Separacion Contenido - Footer: 15px */
+/* Padding Contenido: 15px */
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efefef;
+}
+
+#wrapper{
+	width:980px;
+	margin:0 auto;
+}
+
+/* HEADER */
+
+.title__container {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__image {
+  height: fit-content;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #003064;
+}
+
+.navbar__container {
+  height: 50px;
+  width: 960px;
+  background-color: #003064;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__item {
+  color: #ffffff;
+  list-style: none;
+  padding: 15px;
+}
+
+/* MAIN */
+
+.main__container {
+  margin: 15px 0px;
+  display: flex;
+}
+
+.plus__simbol {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.text__container {
+  width: 710px;
+  display: flex;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.left__text__container, .right__text__container, .login__container {
+  padding: 15px;
+}
+
+.text__title, .login__title {
+  font-size: 1.2rem;
+  color: #003064;
+  padding-bottom: 15px;
+}
+.image__text {
+  padding: 15px 0px;
+}
+
+.text__content {
+  color: #666;
+}
+
+.login__container {
+  width: 250px;
+}
+
+.user__input, .password__input {
+  height: 20px;
+  width: 220px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+}
+
+.access__button {
+  height: 40px;
+  width: 245px;
+  margin: 5px 0px;
+  background-color: #003064;
+  color: #ffffff;
+}
+
+/* FOOTER */
+
+.footer__container {
+  height: 50px;
+  width: 960px;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0px;
+}
+
+.footer__list__item {
+  list-style: none;
+  padding: 0px 15px;
+}
+
+/* EFFECTS */
+
+.toggle {
+  height: 50px;
+  overflow: hidden;
+}
